@@ -14,3 +14,5 @@ redis-kettle-plugin 主要实现了kettle的redis数据输入/输出插件，按
 plugins打包方式见demo文件夹elasticsearch-bulk-insert-plugin.zip
 ###
 插件加载成功可在 转换->核心对象->应用  下见到三个redis新增图标 可以拖动使用
+##兼容
+现仅支持Sentinel集群的redis服务
