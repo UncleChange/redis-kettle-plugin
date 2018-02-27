@@ -12,7 +12,7 @@ redis-kettle-plugin 主要实现了kettle的redis数据输入/输出插件，按
 使用方法见demo文件夹《Redis缓存重置例子.ktr Redis增量缓存主数据例子.ktr redis增量删除数据获取用法.ktr》
 
 plugins打包方式见demo文件夹elasticsearch-bulk-insert-plugin.zip
-###
-插件加载成功可在 转换->核心对象->应用  下见到三个redis新增图标 可以拖动使用
+###插件使用
+插件加载成功可在 转换->核心对象->应用  下见到三个redis新增图标 可以拖动使用 每个插件均需配置redis集群服务地址
 ##兼容
 现仅支持Sentinel集群的redis服务
